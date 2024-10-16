@@ -19,6 +19,10 @@
   transition: all .2s linear;
 }
 
+h3{
+  text-transform: none;
+}
+
 html::-webkit-scrollbar{
   width:10px;
 }
