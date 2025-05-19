@@ -262,6 +262,55 @@ html::-webkit-scrollbar-thumb{
   text-transform: none;
 }
 
+.container .information .publications .box-container .publication-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  background: var(--light-bg);
+}
+
+.container .information .publications .box-container .publication-box .teaser-img {
+  width: 200px;
+  height: auto;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.container .information .publications .box-container .publication-box .publication-content {
+  flex: 1;
+}
+
+.container .information .publications .box-container .publication-box .publication-content h3 {
+  font-size: 15px;
+  padding: 0 0;
+  color: var(--black);
+}
+
+.container .information .publications .box-container .publication-box .publication-content span {
+  color: var(--blue);
+  font-size: 15px;
+}
+
+.container .information .publications .box-container .publication-box .publication-content p {
+  color: var(--light-color);
+  line-height: 2;
+  font-size: 13px;
+  text-transform: none;
+}
+
+@media (max-width: 768px) {
+  .container .information .publications .box-container .publication-box {
+      flex-direction: column;
+  }
+
+  .container .information .publications .box-container .publication-box .teaser-img {
+      width: 100%;
+      max-width: 300px;
+  }
+}
+
 .container .information .awards{
   margin-top: 20px;
   margin-bottom: 20px;
