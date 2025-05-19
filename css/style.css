@@ -307,7 +307,7 @@ html::-webkit-scrollbar-thumb{
 
   .container .information .publications .box-container .publication-box .teaser-img {
       width: 100%;
-      max-width: 100px;
+      max-width: 150px;
   }
 }
 
