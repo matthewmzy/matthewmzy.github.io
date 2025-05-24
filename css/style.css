@@ -288,6 +288,20 @@ html::-webkit-scrollbar-thumb{
   color: var(--black);
 }
 
+.container .information .publications .box-container .publication-box .publication-content h4 {
+  font-size: 12px;
+  font-weight: 200;
+  padding: 0 0;
+  color: var(--black);
+}
+
+.container .information .publications .box-container .publication-box .publication-content h4 authorme {
+  font-size: 12px;
+  font-weight: 1200;
+  padding: 0 0;
+  color: var(--black);
+}
+
 .container .information .publications .box-container .publication-box .publication-content span {
   color: var(--blue);
   font-size: 15px;
